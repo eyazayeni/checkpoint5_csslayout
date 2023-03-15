@@ -4,7 +4,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  margin: auto;
   padding: 0;
   color: #747474;
   text-align: center;
@@ -21,6 +20,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 25%;
+  width: 100%;
 }
 
 .navhead li {
@@ -44,13 +45,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 25%;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .title {
   color: #00b39b;
   font-family: "Roboto", sans-serif;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  font-size: 22px;
 }
 
 .paragraphe {
@@ -76,8 +81,10 @@ a {
 .forwho1 {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
+  margin-left: 30%;
+  width: 100%;
 }
 
 .patient {
@@ -162,6 +169,8 @@ svg:hover {
   margin-top: 50px;
   display: flex;
   justify-content: center;
+  width: 100%;
+  margin-left: 30%;
 }
 .global-company h1 {
   text-align: left;
@@ -198,15 +207,28 @@ svg:hover {
     rgba(0, 204, 177, 0.01) 5%,
     rgba(61, 199, 223, 0.1)
   );
+
+  background: #c9fbf6;
   display: flex;
   justify-content: space-between;
-  padding-inline: 100px;
+  padding-right: 200px;
+  padding-left: 350px;
+  width: 100%;
+  height: 100%;
+}
+.img2 {
+  position: absolute;
+  zoom: 1;
+  width: 50%;
+  margin-top: 6%;
+  left: 5%;
 }
 
 .leftworld {
-  width: 500px;
+  width: 700px;
   margin-top: 50px;
 }
+
 .topleftworld h2 {
   font-size: 2.125rem;
   color: #00b39b;
@@ -223,6 +245,12 @@ svg:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 70%;
+  padding-top: 30px;
+}
+.rightworld h3 {
+  color: #00b39b;
+  font-weight: 300;
+  font-size: 25px;
 }
 
 .grid1,
@@ -232,6 +260,8 @@ svg:hover {
   background-color: #fff;
   margin: 10px 10px;
   border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .grid1,
 .grid2 {
@@ -244,7 +274,9 @@ svg:hover {
 }
 
 .improve {
-  margin: 100px 0;
+  margin-left: 30%;
+  width: 100%;
+  padding-top: 20px;
 }
 .topimprove h2 {
   color: #00b39b;
@@ -305,10 +337,14 @@ svg:hover {
 
 .seeall {
   margin-bottom: 75px;
+  width: 100%;
+  margin-left: 30%;
 }
 
 footer {
   border-top: 1px solid #eef2f2;
+  width: 100%;
+  margin-left: 30%;
 }
 
 footer p {
