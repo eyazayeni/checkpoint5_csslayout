@@ -354,13 +354,67 @@ footer p {
 footer a {
   color: #3d83df;
 }
-@media screen and (max-width: 1500px) {
+
+@media only screen and (max-width: 768px) {
   body {
-    width: 55%;
-    font-family: "Roboto";
-    margin: auto;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .navhead {
+    margin: 0;
+  }
+
+  nav {
+    margin-left: 0;
+  }
+
+  .presentation {
+    margin-left: 0;
+  }
+
+  .paragraphe {
+    flex-direction: column;
+  }
+
+  .description1,
+  .description2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .forwho1 {
+    margin-left: 0;
+    flex-direction: column;
+  }
+
+  .patient,
+  .doctors,
+  .clinics {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+
+  .global-company {
+    margin-left: 0;
+  }
+
+  .global-left,
+  .global-right {
+    width: 100%;
+    margin: 0;
+  }
+
+  .leftworld {
+    width: 100%;
+  }
+
+  .world {
     padding: 0;
-    color: #ababab;
-    text-align: center;
+  }
+
+  .img2 {
+    width: 100%;
+    left: 0;
   }
 }
